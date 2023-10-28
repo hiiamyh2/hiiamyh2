@@ -1,0 +1,79 @@
+<br> : 줄 바꿈 
+
+<p></p> : 단락을 나눔(원하는 만큼 여백 띄울 수 없음)
+
+style="margin"
+*margin : 태그와 태그 사이의 여백 
+<img src="이미지파일이름" width="크기">
+
+src : source 이미지의 URL
+alt : alternative 이미지의 대체 텍스트 
+
+대체 텍스트 : 어떠한 사정으로 인해서 이미지가 정상적으로 삽입되지 않았을 때 나타나는 글자.
+
+<li></li> : list 
+<ul></ul> : list의 경계를 구분 지음 
+unordered list
+<ol></ol> : 숫자 자동으로 써줌
+ordered list
+
+  
+<ul>
+	<li>a</li>
+	<li>b</li>
+</ul>
+
+<ol>
+	<li>1.a</li>
+	<li>2.b</li>
+</ol>
+
+<title></title> : 제목 표시(정보를 나타냄)
+<meta charset="utf-8"> : 한글로 표시하게 해줌
+charset : character set 문자 규칙(문자 인코딩 방식)
+
+<body></body> : 본문
+<head></head> : 본문을 설명한다
+<html></html> : 헤드와 바디를 감쌈
+<!doctype html> : 이 문서는 html이다. 맨 위에 쓰는
+
+
+<a></a> : 링크
+anchor
+<a><a href="">
+html refrence : 이 링크를 참조해라
+
+<a><a href="블라블라" target="_blank"> : 새 탭으로 띄움
+<a>href="블라블라=speicification"</a> : 타이틀 설명창 뜸
+href : 외부 문서의 위치를 지정
+rel : (필수) 현재 문서와 외부 문서와의 관계를 지정
+ HTML(Hyper Text Markup Language)
+ :웹의 구조를 담당
+ CSS(Cascading Style Sheets)
+ :웹의 시각적인 표현을 담당
+ JS(JavaScript)
+ :웹의 동적 처리를 담당
+ 
+<특수 기호>
+
+1.	` grave -
+2.	~ tilde 물결 표시
+3.	! exvlamation mark 느낌표
+4.	@ at sign 골뱅이
+5.	# sharp 샵
+6.	$ dollar 달러
+7.	% percent 퍼센트
+8.	^ caret 꺽쇠
+ 
+
+<tag> 속성="값"></tag>
+
+빈 태그는 /가 있는 것과 없는 것이 있다.
+
+
+<html></html> : 문서 전체 영역을 나타냄
+				문서의 시작과 끝을 표시한다 
+<head></head> : 전체 문서의 정보를 나타냄
+<body></body> : 전체 문서의 실제적으로 출력되는 부분을 나타냄
+
+<meta> : 기타 모든 정보를 나타냄
